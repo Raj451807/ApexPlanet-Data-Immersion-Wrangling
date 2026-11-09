@@ -1,0 +1,13 @@
+Column,Data_Type,Description,Business_Relevance
+Order_ID,object,Unique order identification number,Track individual orders
+Order_Date,datetime64[ns],Date when the order was placed,Analyze sales over time
+Customer_ID,object,Unique customer identification,Identify repeat customers
+Customer_Name,object,Customer name or label,Understand customer records
+Age,float64,Age of the customer,Analyze customer demographics
+Gender,object,Gender of the customer,Compare purchasing patterns
+City,object,City where the customer lives,Analyze regional sales
+Product,object,Name of purchased product,Identify popular products
+Category,object,Product category,Compare category performance
+Quantity,int64,Number of products purchased,Measure purchase quantity
+Unit_Price,float64,Price of one product,Understand product pricing
+Total_Sales,float64,Total sales amount,Measure business revenue
